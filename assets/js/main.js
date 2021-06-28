@@ -331,7 +331,7 @@ const Item = props => {
 const $list = document.querySelector('.list')
 
 const getMarkers = async () => {
-    $list.innerHTML = ''
+    $list.innerHTML = ""
 
     try {
         const response = await fetch('https://gmaps-backend.vercel.app/markers');

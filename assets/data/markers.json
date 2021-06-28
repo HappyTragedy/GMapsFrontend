@@ -1,0 +1,403 @@
+[
+    {
+      "nombre": "Pet Lisis",
+      "descripcion": "Tienda de productos para mascotas",
+      "ubicacion": "Fortunato Devoto 497",
+      "horario": "Abierto hasta las 18:00",
+      "telefono": "011 15-6904 3340",
+      "lat": -34.61722632065406,
+      "lng": -58.4255477942772,
+      "type": "Pet Shop"
+    },
+    {
+      "nombre": "Puppis Veterinaria, Peluqueria y Pet Shop",
+      "descripcion": "Tienda de productos para mascotas",
+      "ubicacion": "Av. Rivadavia 3601",
+      "horario": "Abierto hasta las 20:00",
+      "telefono": "0810-222-2345",
+      "lat": -34.60820365022831,
+      "lng": -58.41719783460007,
+      "type": "Pet Shop"
+    },
+    {
+      "nombre": "Puppis Veterinaria, Peluqueria y Pet Shop",
+      "descripcion": "Tienda de productos para mascotas",
+      "ubicacion": "Av. Rivadavia 3601",
+      "horario": "Abierto hasta las 20:00",
+      "telefono": "0810-222-2345",
+      "lat": -34.60820365022831,
+      "lng": -58.41719783460007,
+      "type": "Pet Shop"
+    },
+    {
+      "nombre": "Pet Shop ZAM",
+      "descripcion": "Tienda de productos para mascotas",
+      "ubicacion": "El Maestro 13",
+      "horario": "Abierto desde las 15:30 hasta las 20:00",
+      "telefono": "+54 011 4904-1401",
+      "lat": -34.61537372044308,
+      "lng": -58.431463119864326,
+      "type": "Pet Shop"
+    },
+    {
+
+      "nombre": "Pet Shop Ringo Animal",
+      "descripcion": "Tienda de productos para mascotas",
+      "ubicacion": "Formosa 512",
+      "horario": "Abierto desde las 10:00 hasta las 14:00 y desde las 16:00 hasta las 20:00",
+      "telefono": "+54 011 5668-2653",
+      "lat": -34.62057012611498,
+      "lng": -58.43581468122495,
+      "type": "Pet Shop"
+    },
+    {
+      "nombre": "Mol Hats",
+      "descripcion": "Tienda de sombreros, boinas, gorras, etc",
+      "ubicacion": "Galicia 2946",
+      "horario": "Abierto desde las 09:00 hasta las 18:00",
+      "telefono": "+54 011 5365-7171",
+      "lat": -34.617029287676324,
+      "lng": -58.47659154768777,
+      "type": "Sombrereria"
+    },
+    {
+      "nombre": "Cía. Argentina de Sombreros",
+      "descripcion": "Tienda de sombreros, boinas, gorras, etc",
+      "ubicacion": "Larrea 277",
+      "horario": "Abierto desde las 09:00 hasta las 18:00",
+      "telefono": "+54 011 4952-0384",
+      "lat": -34.60547962626495,
+      "lng": -58.40198819324038,
+      "type": "Sombrereria"
+    },
+    {
+      "nombre": "Maidana",
+      "descripcion": "Tienda de sombreros, boinas, gorras, etc",
+      "ubicacion": "Av. Rivadavia 1923",
+      "horario": "Abierto desde las 09:00 hasta las 18:00",
+      "telefono": "+54 011 4953-2257",
+      "lat": -34.60788154526747,
+      "lng": -58.39331929452973,
+      "type": "Sombrereria"
+    },
+    {
+      "nombre": "Casa Saslafsky",
+      "descripcion": "Tienda de sombreros, boinas, gorras, etc",
+      "ubicacion": "Raúl Scalabrini Ortiz 514",
+      "horario": "Abierto desde las 08:30 hasta las 13:00 y desde las 14:00 hasta las 18:00",
+      "telefono": "+54 011 4856-6374",
+      "lat": -34.59714301544485,
+      "lng": -58.43666378808297,
+      "type": "Sombrereria"
+    },
+    {
+      "nombre": "Nuevo Gema S.A.",
+      "descripcion": "Tienda de sombreros, boinas, gorras, etc",
+      "ubicacion": "Tres Arroyos 229",
+      "horario": "Abierto desde las 07:00 hasta las 16:00",
+      "telefono": "+54 011 4854-0203",
+      "lat": -34.60011037962111,
+      "lng": -58.44704930039968,
+      "type": "Sombrereria"
+    },
+    {
+      "nombre": "La Francesita - Boutique de Uñas",
+      "descripcion": "Salón de manicura y pedicura",
+      "ubicacion": "Tucumán 810",
+      "horario": "Abierto desde las 10:00 hasta las 20:30",
+      "telefono": "+54 011 6497-0522",
+      "lat": -34.599895926805345,
+      "lng": -58.37829893503375,
+      "type": "Manicura y Pedicura"
+    },
+    {
+      "nombre": "Mistica, Atelier de uñas",
+      "descripcion": "Salón de manicura y pedicura",
+      "ubicacion": "San Blas 4309",
+      "horario": "Cerrado Temporalmente",
+      "telefono": "+54 011 6862-8688",
+      "lat": -34.62011227915642,
+      "lng": -58.49569067156504,
+      "type": "Manicura y Pedicura"
+    },
+    {
+      "nombre": "Uñas esculpidas Acrílicas o Gelificadas",
+      "descripcion": "Salón de manicura y pedicura",
+      "ubicacion": "Mercedes 1735",
+      "horario": "Abierto desde las 11:00 hasta las 18:00",
+      "telefono": "+54 011 3059-6995",
+      "lat": -34.61705415692028,
+      "lng": -58.495892447687766,
+      "type": "Manicura y Pedicura"
+    },
+    {
+      "nombre": "d-uñas nails & beauty",
+      "descripcion": "Salón de manicura y pedicura",
+      "ubicacion": "Nogoyá 3335",
+      "horario": "Abierto desde las 10:00 hasta las 20:00",
+      "telefono": "+54 011 4503-5323",
+      "lat": -34.60335950831079,
+      "lng": -58.494821463605945,
+      "type": "Manicura y Pedicura"
+    },
+    {
+      "nombre": "UÑAS ESCULPIDAS Patricia",
+      "descripcion": "Salón de manicura y pedicura",
+      "ubicacion": "Chivilcoy 1085",
+      "horario": "Abierto desde las 09:00 hasta las 20:00",
+      "telefono": "+54 011 6572-5702",
+      "lat": -34.6221768519676,
+      "lng": -58.48757701700746,
+      "type": "Manicura y Pedicura"
+    },
+    {
+      "nombre": "Santander Río",
+      "descripcion": "Entidad financiera",
+      "ubicacion": "IGA, Riobamba 1515",
+      "horario": "Abierto desde las 10:00 hasta las 15:00",
+      "telefono": "+54 011 4843-2403",
+      "lat": -34.48715162813047,
+      "lng": -58.619367812375856,
+      "type": "Banco"
+    },
+    {
+      "nombre": "Banco Provincia",
+      "descripcion": "Entidad financiera",
+      "ubicacion": "Av. Ángel T. de Alvear 708",
+      "horario": "Abierto desde las 10:00 hasta las 16:00",
+      "telefono": "+54 011 4748-3764",
+      "lat": -34.497444567446266,
+      "lng": -58.639924260308526,
+      "type": "Banco"
+    },
+    {
+      "nombre": "Galicia",
+      "descripcion": "Entidad financiera",
+      "ubicacion": "Hipólito Yrigoyen 2420 - Local A",
+      "horario": "Abierto desde las 10:00 hasta las 15:00",
+      "telefono": "0810-777-3333",
+      "lat": -34.47258807532233,
+      "lng": -58.65805603520449,
+      "type": "Banco"
+    },
+    {
+      "nombre": "Centro de Servicios Banco Supervielle",
+      "descripcion": "Entidad financiera",
+      "ubicacion": "Av. Pres. Juan Domingo Perón 2681",
+      "horario": "Abierto desde las 09:00 hasta las 14:00",
+      "telefono": "+54 011 4660-0493",
+      "lat": -34.50325400942982,
+      "lng": -58.68850277384388,
+      "type": "Banco"
+    },
+    {
+      "nombre": "Hsbc Bank PLC",
+      "descripcion": "Entidad financiera",
+      "ubicacion": "Colectora Oeste Ramal Pilar 3881",
+      "horario": "Abierto desde las 10:00 hasta las 15:00",
+      "telefono": "+54 011 2293-8747",
+      "lat": -34.47405878654576,
+      "lng": -58.6683457431636,
+      "type": "Banco"
+    },
+    {
+      "nombre": "Navajas Barber Shop",
+      "descripcion": "Barbería",
+      "ubicacion": "1212, 1617, Colombia, 1617 Tigre",
+      "horario": "Abierto desde las 12:00 hasta las 20:00",
+      "telefono": "+54 011 5466-4814",
+      "lat": -34.47320907014126,
+      "lng": -58.661693867835936,
+      "type": "Barberia"
+    },
+    {
+      "nombre": "SFM BARBER SHOP",
+      "descripcion": "Barbería",
+      "ubicacion": "Av. de los Incas 4726",
+      "horario": "Abierto desde las 10:00 hasta las 20:00",
+      "telefono": "+54 011 3379-9495",
+      "lat": -34.58024481636341,
+      "lng": -58.475638859160426,
+      "type": "Barberia"
+    },
+    {
+      "nombre": "HOUSE BARBER CORTE LATINO",
+      "descripcion": "Barbería",
+      "ubicacion": "Marcos Paz 1710",
+      "horario": "Abierto desde las 09:00 hasta las 13:00 y desde las 16:30 hasta las 21:00",
+      "telefono": "+54 011 2732-3454",
+      "lat": -34.62092912574808,
+      "lng": -58.500701456015,
+      "type": "Barberia"
+    },
+    {
+      "nombre": "Barberia Argenta Barbershop",
+      "descripcion": "Barbería",
+      "ubicacion": "Felipe Vallese 2936",
+      "horario": "Abierto desde las 11:00 hasta las 14:00 y desde las 17:00 hasta las 19:30",
+      "telefono": "+54 9 011 5059-6772",
+      "lat": -34.620787860524125,
+      "lng": -58.47478059056336,
+      "type": "Barberia"
+    },
+    {
+      "nombre": "Octi's Barber",
+      "descripcion": "Barbería",
+      "ubicacion": "FML, Camarones 3802",
+      "horario": "Abierto desde las 11:00 hasta las 14:00 y desde las 15:00 hasta las 20:00",
+      "telefono": "+54 011 3630-6176",
+      "lat": -34.62375437972982,
+      "lng": -58.49194672662405,
+      "type": "Barberia"
+    },
+    {
+      "nombre": "Punto Cantina",
+      "descripcion": "Cervecería artesanal",
+      "ubicacion": "Juan Ramírez de Velasco 615",
+      "horario": "Abierto desde las 17:00 hasta las 22:30",
+      "telefono": "+54 011 4563-1822",
+      "lat": -34.59435702796496,
+      "lng": -58.43718679079644,
+      "type": "Cerveceria"
+    },
+    {
+      "nombre": "Bier Klub",
+      "descripcion": "Cervecería artesanal",
+      "ubicacion": "Av. Gaona 5024",
+      "horario": "Abierto desde las 11:00 hasta las 01:00",
+      "telefono": "+54 9 011 6519-8345",
+      "lat": -34.62586325152525,
+      "lng": -58.49194676483002,
+      "type": "Cerveceria"
+    },
+    {
+      "nombre": "Cervecería Fuerte",
+      "descripcion": "Cervecería artesanal",
+      "ubicacion": "Carrasco 802",
+      "horario": "Abierto desde las 12:00 hasta las 19:00",
+      "telefono": "5193-3546",
+      "lat": -34.62572199470065,
+      "lng": -58.49658162156643,
+      "type": "Cerveceria"
+    },
+    {
+      "nombre": "Corleone",
+      "descripcion": "Cervecería artesanal",
+      "ubicacion": "Av. Francisco Beiró 5757",
+      "horario": "Abierto desde las 19:00 hasta las 00:00",
+      "telefono": "+54 011 2102-2213",
+      "lat": -34.61411810282686,
+      "lng": -58.530742308739136,
+      "type": "Cerveceria"
+    },
+    {
+      "nombre": "Varsovia Beer",
+      "descripcion": "Cervecería artesanal",
+      "ubicacion": "Condarco 2601",
+      "horario": "Abierto desde las 08:30 hasta las 23:00",
+      "telefono": "+54 011 2361-1062",
+      "lat": -34.60083703116977,
+      "lng": -58.48387875729347,
+      "type": "Cerveceria"
+    },
+    {
+      "nombre": "Laboratorio Óptico MG",
+      "descripcion": "Óptica",
+      "ubicacion": "Tres Arroyos 3363",
+      "horario": "Abierto desde las 10:00 hasta las 21:00",
+      "telefono": "+54 9 011 6551-3235",
+      "lat": -34.617074853813854,
+      "lng": -58.483020488696404,
+      "type": "Optica"
+    },
+    {
+      "nombre": "Maggi’s & Co. OPTICA",
+      "descripcion": "Óptica",
+      "ubicacion": "AAM, Ayacucho 1447",
+      "horario": "Abierto desde las 09:30 hasta las 19:00",
+      "telefono": "+54 011 4811-8047",
+      "lat": -34.58923967078095,
+      "lng": -58.3951298720657,
+      "type": "Optica"
+    },
+    {
+      "nombre": "Óptica Segurola",
+      "descripcion": "Óptica",
+      "ubicacion": "Av. Segurola 1478",
+      "horario": "Abierto desde las 11:00 hasta las 14:00 y desde las 15:00 hasta las 18:00",
+      "telefono": "+54 011 6337-2100",
+      "lat": -34.62032403848904,
+      "lng": -58.496410074823736,
+      "type": "Optica"
+    },
+    {
+      "nombre": "Laboratorio Óptico AB",
+      "descripcion": "Óptica",
+      "ubicacion": "Av. Álvarez Jonte 4592",
+      "horario": "Abierto desde las 09:00 hasta las 12:30 y desde las 16:00 hasta las 19:00",
+      "telefono": "+54 011 4566-9865",
+      "lat": -34.6163684924877,
+      "lng": -58.503619851969226,
+      "type": "Optica"
+    },
+    {
+      "nombre": "Óptica SELECT",
+      "descripcion": "Óptica",
+      "ubicacion": "Nogoyá 3126",
+      "horario": "Abierto desde las 10:00 hasta las 13:00 y desde las 16:00 hasta las 19:00",
+      "telefono": "+54 011 4503-4850",
+      "lat": -34.601109620736054,
+      "lng": -58.492633524890394,
+      "type": "Optica"
+    },
+    {
+      "nombre": "Casa Lamas - Fabricante de Banderas",
+      "descripcion": "Tienda de banderas",
+      "ubicacion": "AAE, Suipacha 245",
+      "horario": "Abierto desde las 09:00 hasta las 16:00",
+      "telefono": "+54 011 4328-2220",
+      "lat": -34.60237129209719,
+      "lng": -58.37847875829285,
+      "type": "Banderas"
+    },
+    {
+      "nombre": "Antigua Casa Cesto - Fábrica de Banderas",
+      "descripcion": "Tienda de banderas",
+      "ubicacion": "Av. Santa Fe 4531",
+      "horario": "Abierto desde las 10:00 hasta las 18:00",
+      "telefono": "+54 011 4777-2700",
+      "lat": -34.57537924068523,
+      "lng": -58.42431234157489,
+      "type": "Banderas"
+    },
+    {
+      "nombre": "Bandera Del Sol",
+      "descripcion": "Tienda de banderas",
+      "ubicacion": "Av. Escalada 266",
+      "horario": "Abierto desde las 09:30 hasta las 13:00 y desde las 16:00 hasta las 18:00",
+      "telefono": "+54 011 4635-3213",
+      "lat": -34.6358518539682,
+      "lng": -58.500100832282804,
+      "type": "Banderas"
+    },
+    {
+      "nombre": "GLAZ BANDERAS DEL MUNDO",
+      "descripcion": "Tienda de banderas",
+      "ubicacion": "Bartolomé Mitre 1586",
+      "horario": "Abierto desde las 10:00 hasta las 18:00",
+      "telefono": "+54 011 4371-0708",
+      "lat": -34.6054797609962,
+      "lng": -58.389293424011036,
+      "type": "Banderas"
+    },
+    {
+      "nombre": "Banderas - Emblemas Argentinos",
+      "descripcion": "Tienda de banderas",
+      "ubicacion": "Tapalqué 7200",
+      "horario": "Abierto desde las 09:00 hasta las 17:30",
+      "telefono": "+54 011 2871-6322",
+      "lat": -34.65957017368574,
+      "lng": -58.51143043401493,
+      "type": "Banderas"
+    }
+  ]

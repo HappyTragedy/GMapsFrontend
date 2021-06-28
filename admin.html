@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body class="admin" onload="getMarkers()">
+
+    <div class="crear">
+        <form id="myForm" action="https://gmaps-backend.vercel.app/markers" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre del local..">      
+            <label for="descripcion">Descripción</label>
+            <input type="text" name="descripcion" placeholder="Descripción corta.."> 
+            <label for="ubicacion">Ubicación</label>
+            <input type="text" name="ubicacion" placeholder="Calle y número.."> 
+            <label for="horario">Horario</label>
+            <input type="text" name="horario" placeholder="Horario de apertura y cierre.."> 
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" placeholder="Número de contacto.."> 
+            <label for="lat">Latitud</label>
+            <input type="number" name="lat" placeholder="Latitud.."> 
+            <label for="lng">Longitud</label>
+            <input type="number" name="lng" placeholder="Longitud.."> 
+            <label for="type">Tipo</label>
+            <select name="tipo" id="type">
+                <option value="def" selected hidden>...</option>
+                <option value="petshop">Pet Shop</option>
+                <option value="sombrereria">Sombrerería</option>
+                <option value="manicurapedicura">Manicura y Pedicura</option>
+                <option value="banco">Banco</option>
+                <option value="barberia">Barbería</option>
+                <option value="cerveceria">Cervecería</option>
+                <option value="optica">Óptica</option>
+                <option value="banderas">Banderas</option>
+            </select>
+            <input type="submit" name="crear" id="enviar">
+        </form>
+    </div>
+
+    <div class="editar">
+        <form id="myForm_edit">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre del local..">      
+            <label for="descripcion">Descripción</label>
+            <input type="text" name="descripcion" placeholder="Descripción corta.."> 
+            <label for="ubicacion">Ubicación</label>
+            <input type="text" name="ubicacion" placeholder="Calle y número.."> 
+            <label for="horario">Horario</label>
+            <input type="text" name="horario" placeholder="Horario de apertura y cierre.."> 
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" placeholder="Número de contacto.."> 
+            <label for="lat">Latitud</label>
+            <input type="number" name="lat" placeholder="Latitud.."> 
+            <label for="lng">Longitud</label>
+            <input type="number" name="lng" placeholder="Longitud.."> 
+            <label for="type">Tipo</label>
+            <select name="tipo" id="type">
+                <option value="def" selected hidden>...</option>
+                <option value="petshop">Pet Shop</option>
+                <option value="sombrereria">Sombrerería</option>
+                <option value="manicurapedicura">Manicura y Pedicura</option>
+                <option value="banco">Banco</option>
+                <option value="barberia">Barbería</option>
+                <option value="cerveceria">Cervecería</option>
+                <option value="optica">Óptica</option>
+                <option value="banderas">Banderas</option>
+            </select>
+            <input type="hidden" placeholder="id" name="_id" class="id_edit">
+            <input type="submit" name="editar" id="enviar">
+        </form>
+    </div>
+
+    <div class="list"></div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

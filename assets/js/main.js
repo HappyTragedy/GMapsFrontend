@@ -328,7 +328,7 @@ const Item = props => {
 
 
 
-const $list = document.querySelector('.list');
+const $list = document.querySelector[0]('.list');
 
     const getMarkers = async () => {
         $list.innerHTML = null;

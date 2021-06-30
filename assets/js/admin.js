@@ -175,16 +175,20 @@ const Item = props => {
 
     return `
     <div class="markersList">
-        <p>${nombre}</p>
+        <div class="nombre">
+            <h2>${nombre}</h2>
+        </div>
         <p>${descripcion}</p>
-        <p>${ubicacion}</p>
+        <p>Ubicado en: ${ubicacion}</p>
         <p>${horario}</p>
-        <p>${telefono}</p>
-        <p>${lat}</p>
-        <p>${lng}</p>
-        <p>${type}</p>
-        <button data-id=${_id} class= "edit">Edit</button>
-        <button data-id=${_id} class="delete">Delete</button>
+        <p>Tel.: ${telefono}</p>
+        <p>Lat: ${lat}</p>
+        <p>Lng: ${lng}</p>
+        <p>Es un/a: ${type}</p>
+        <div class="botones">
+            <button data-id=${_id} class= "edit"><img src= './assets/images/edit.png'></button>
+            <button data-id=${_id} class="delete"><img src= './assets/images/delete.png'></button>
+        </div>
     </div>`
 }
 

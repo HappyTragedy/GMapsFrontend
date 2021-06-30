@@ -9,7 +9,10 @@
 </head>
 <body class="admin" onload="getMarkers()">
 
+    <a href="index.html" id="back">Mapa</a>
+
     <div class="crear">
+        <h1>Nuevo Marker</h1>
         <form id="myForm" action="https://gmaps-backend.vercel.app/markers" method="POST">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" placeholder="Nombre del local..">      
@@ -42,6 +45,7 @@
     </div>
 
     <div class="editar">
+        <h1>Editar Marker</h1>
         <form id="myForm_edit">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" placeholder="Nombre del local..">      

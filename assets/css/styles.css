@@ -18,6 +18,11 @@
     src:url("../fonts/aAccountantSignature.otf");
 }
 
+@font-face{
+    font-family: "Josefin Sans";
+    src:url("../fonts/JosefinSans-Regular.ttf");
+}
+
 body{
     padding: 0%;
     margin: 0%;
@@ -71,6 +76,34 @@ body{
     left: 80%;
 }
 
+#titulo{
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(162 125 86);
+    padding: 1%;
+    border-radius: 15%;
+}
+
+#back{
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(168, 172, 145);
+    padding: 1%;
+    border-radius: 15%;    
+}
+
 .button img{
     width: 55%;
     padding: 6px 0px;
@@ -83,6 +116,11 @@ body{
     list-style: none;
 }
 
+.fondo{
+    border-color: black;
+    border-radius: 5%;
+}
+
 #id-error, #nombre-error, #descripcion-error, #ubicacion-error, #horario-error, #telefono-error, #lat-error, #lng-error, #tipo-error{
     grid-column: 2  /2    ;
     align-items: center;
@@ -91,50 +129,85 @@ body{
     text-transform: uppercase;
 }
 
+.editar, .list, .markersList{
+    background-color: rgb(212, 183, 143);
+    padding: 1%;
+    margin: 2%;
+}
+
+.crear{
+    background-color: rgb(212, 183, 143);
+    padding: 1%;
+    margin: 8% 2% 2% 2%;
+}
+
+.crear h1, .editar h1{
+    margin-left: 2%;
+    color: rgb(158, 54, 26);
+}
+
 #myForm, #myForm_edit{
-    display: grid;
-    width: 35%;
-    justify-content: center;
-    margin: 2% 0% 0% 2%;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 #myForm label, #myForm_edit label{
-    font-family: monospace;
-    font-size: 1.1em;
-    padding-bottom: 5%;
+    font-family: 'Josefin Sans';
+    font-size: 1em;
+    padding: 0% 3% 2% 0%;
+    width: 4%;
+    font-weight: 600;
+    color: rgb(158, 54, 26);
 }
 
 input[type="number"], input[type="text"], input[type="tel"], select, option{
-    margin-bottom: 1%;
     background-color: rgb(255 255 255 / 30%);
     border: none;
-    padding: 3%;
+    padding: 0.5%;
+    margin: 0% 5% 3% 0%;
 }
 
 ::placeholder {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans';
     text-transform: uppercase;
     font-size: 9px;
-}
-
-.list{
-    margin: 7% 0%;
+    color: black;
+    font-weight: 600;
 }
 
 .list .markersList{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    column-gap: 2%;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(158, 54, 26);
+}
+
+.nombre{
+    width: 100%;
+    margin-left: 2%;
+}
+
+.nombre h2, .crear h1, .editar h1{
+    font-family: 'treasuremap';
+}
+
+.botones{
+    width: 100%;
+    margin-left: 35%;
 }
 
 .list .markersList p, .list .markersList button{
-    margin: 8% 5%;
-    font-size: 13px;
+    margin: 3% 3%;
+    font-size: 15px;
     text-align: center;
+    width: 15%;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
 }
 
 .markers{
@@ -164,24 +237,31 @@ input[type="number"], input[type="text"], input[type="tel"], select, option{
     font-weight: 100;
 }
 
-.admin{
-    background: linear-gradient(to right, #25c481, #25b7c4);
+.info_wrapper h3{
+    font-style: italic;
 }
 
-.less{
-    display: none;
-}
-
-input[type=submit]{
-    padding: 10%;
-    letter-spacing: 7px;
-    font-family: sans-serif;
+.info_wrapper h3, p{
+    font-family: 'Josefin Sans';
     font-weight: 600;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.admin{
+    background-color: rgb(166, 143, 112);
+}
+
+input[type=submit], .botones button{
+    padding: 1.5%;
+    background-color: rgba(0, 0, 0, 22%);
     cursor: pointer;
     border: none;
     border-radius: 7%;
     transition: 1s;
-    grid-area: 16/1;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    color: white;
+}
+
+.edit img, .delete img{
+    width: 35%;
 }
